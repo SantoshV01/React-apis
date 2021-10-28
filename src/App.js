@@ -5,7 +5,7 @@ import Tours from "./Tours";
 function App() {
   return (
     <Switch>
-      <Route exact path="/tours" component={Tours} />
+      <Route exact path="/" component={Tours} />
     </Switch>
   );
 }
